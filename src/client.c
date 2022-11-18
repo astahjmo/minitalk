@@ -6,12 +6,16 @@
 /*   By: johmatos <johmatos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/05 17:09:05 by johmatos          #+#    #+#             */
-/*   Updated: 2022/11/07 15:36:31 by johmatos         ###   ########.fr       */
+/*   Updated: 2022/11/14 19:27:55 by johmatos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/minitalk.h"
 
+void signal_handler(int sig)
+{
+	ft_printf("received signal: %d\n", sig);
+}
 int	send_sig(int pid, unsigned char b)
 {
 	int	a;
@@ -25,9 +29,7 @@ int	send_sig(int pid, unsigned char b)
 			kill(pid, SIGUSR1);
 		b = b >> 1;
 		a++;
-		usleep(1000);
 	}
-	pid = pid;
 	return (0);
 }
 
@@ -35,12 +37,21 @@ int	main(int argc, char *argv[])
 {
 	int		a;
 	char	*b;
+	struct sigaction	act;
 
 	if (argc != 3)
 		return (ft_printf("Wrong usage"));
+
+	act.sa_handler = signal_handler;
+	sigemptyset(&act.sa_mask);
+	act.sa_flags = 0;
+	sigaction(SIGUSR1, &act, NULL);
+	sigaction(SIGUSR2, &act, NULL);
 	a = ft_atoi(argv[1]);
-	ft_printf("Send a signal to a server pid: %d\n", a);
 	b = &argv[2][0];
 	while (*b != '\0')
+	{
 		send_sig(a, *(b)++);
+		usleep(1000);
+	}
 }

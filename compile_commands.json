@@ -1,0 +1,768 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wextra",
+      "-Werror",
+      "-Wall",
+      "-c",
+      "-o",
+      "objs/client.o",
+      "src/client.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk",
+    "file": "/home/astaroth/Documents/42school/novominitalk/src/client.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/objs/client.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wextra",
+      "-Werror",
+      "-Wall",
+      "-c",
+      "-o",
+      "objs/server.o",
+      "src/server.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk",
+    "file": "/home/astaroth/Documents/42school/novominitalk/src/server.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/objs/server.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_atoi.o",
+      "./src/utils/ft_atoi.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/utils/ft_atoi.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_atoi.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_isalnum.o",
+      "./src/utils/ft_isalnum.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/utils/ft_isalnum.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_isalnum.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_isalpha.o",
+      "./src/utils/ft_isalpha.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/utils/ft_isalpha.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_isalpha.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_isascii.o",
+      "./src/utils/ft_isascii.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/utils/ft_isascii.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_isascii.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_isdigit.o",
+      "./src/utils/ft_isdigit.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/utils/ft_isdigit.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_isdigit.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_isprint.o",
+      "./src/utils/ft_isprint.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/utils/ft_isprint.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_isprint.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_ithex.o",
+      "./src/utils/ft_ithex.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/utils/ft_ithex.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_ithex.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_itoa.o",
+      "./src/utils/ft_itoa.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/utils/ft_itoa.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_itoa.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_ubase.o",
+      "./src/utils/ft_ubase.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/utils/ft_ubase.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_ubase.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_split.o",
+      "./src/string/ft_split.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_split.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_split.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_strchr.o",
+      "./src/string/ft_strchr.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_strchr.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_strchr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_strdup.o",
+      "./src/string/ft_strdup.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_strdup.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_strdup.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_striteri.o",
+      "./src/string/ft_striteri.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_striteri.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_striteri.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_strjoin.o",
+      "./src/string/ft_strjoin.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_strjoin.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_strjoin.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_strlcat.o",
+      "./src/string/ft_strlcat.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_strlcat.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_strlcat.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_strlcpy.o",
+      "./src/string/ft_strlcpy.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_strlcpy.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_strlcpy.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_strlen.o",
+      "./src/string/ft_strlen.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_strlen.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_strlen.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_strmapi.o",
+      "./src/string/ft_strmapi.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_strmapi.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_strmapi.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_strncmp.o",
+      "./src/string/ft_strncmp.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_strncmp.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_strncmp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_strnstr.o",
+      "./src/string/ft_strnstr.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_strnstr.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_strnstr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_strrchr.o",
+      "./src/string/ft_strrchr.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_strrchr.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_strrchr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_strtrim.o",
+      "./src/string/ft_strtrim.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_strtrim.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_strtrim.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_substr.o",
+      "./src/string/ft_substr.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_substr.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_substr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_tolower.o",
+      "./src/string/ft_tolower.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_tolower.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_tolower.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_toupper.o",
+      "./src/string/ft_toupper.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/string/ft_toupper.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_toupper.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_bzero.o",
+      "./src/memory/ft_bzero.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/memory/ft_bzero.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_bzero.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_calloc.o",
+      "./src/memory/ft_calloc.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/memory/ft_calloc.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_calloc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_memchr.o",
+      "./src/memory/ft_memchr.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/memory/ft_memchr.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_memchr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_memcmp.o",
+      "./src/memory/ft_memcmp.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/memory/ft_memcmp.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_memcmp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_memcpy.o",
+      "./src/memory/ft_memcpy.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/memory/ft_memcpy.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_memcpy.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_memmove.o",
+      "./src/memory/ft_memmove.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/memory/ft_memmove.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_memmove.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_memset.o",
+      "./src/memory/ft_memset.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/memory/ft_memset.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_memset.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/fmt_to_char.o",
+      "./src/io/fmt_to_char.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/fmt_to_char.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/fmt_to_char.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/fmt_to_decimal.o",
+      "./src/io/fmt_to_decimal.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/fmt_to_decimal.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/fmt_to_decimal.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/fmt_to_hex.o",
+      "./src/io/fmt_to_hex.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/fmt_to_hex.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/fmt_to_hex.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/fmt_to_pointer.o",
+      "./src/io/fmt_to_pointer.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/fmt_to_pointer.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/fmt_to_pointer.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/fmt_to_string.o",
+      "./src/io/fmt_to_string.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/fmt_to_string.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/fmt_to_string.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/fmt_to_udecimal.o",
+      "./src/io/fmt_to_udecimal.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/fmt_to_udecimal.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/fmt_to_udecimal.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_printf.o",
+      "./src/io/ft_printf.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/ft_printf.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_printf.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_putchar_fd.o",
+      "./src/io/ft_putchar_fd.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/ft_putchar_fd.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_putchar_fd.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_putendl_fd.o",
+      "./src/io/ft_putendl_fd.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/ft_putendl_fd.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_putendl_fd.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_putnbr_fd.o",
+      "./src/io/ft_putnbr_fd.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/ft_putnbr_fd.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_putnbr_fd.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/ft_putstr_fd.o",
+      "./src/io/ft_putstr_fd.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/ft_putstr_fd.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/ft_putstr_fd.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/get_next_line_bonus.o",
+      "./src/io/get_next_line_bonus.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/get_next_line_bonus.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/get_next_line_bonus.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/get_next_line_utils_bonus.o",
+      "./src/io/get_next_line_utils_bonus.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/get_next_line_utils_bonus.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/get_next_line_utils_bonus.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-I./include",
+      "-c",
+      "-o",
+      "objs/parser.o",
+      "./src/io/parser.c"
+    ],
+    "directory": "/home/astaroth/Documents/42school/novominitalk/libft",
+    "file": "/home/astaroth/Documents/42school/novominitalk/libft/src/io/parser.c",
+    "output": "/home/astaroth/Documents/42school/novominitalk/libft/objs/parser.o"
+  }
+]
