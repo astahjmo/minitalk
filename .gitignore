@@ -3,3 +3,4 @@ server
 */objs/
 objs/
 *.a
+.cache

@@ -6,7 +6,7 @@
 /*   By: johmatos <johmatos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/29 00:07:26 by johmatos          #+#    #+#             */
-/*   Updated: 2022/10/30 15:57:20 by johmatos         ###   ########.fr       */
+/*   Updated: 2022/11/22 15:50:11 by johmatos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,8 @@ static int	handler_parms(char spec, va_list ap)
 		return (fmt_to_decimal(va_arg(ap, int)));
 	else if (spec == 'c')
 		return (fmt_to_char(va_arg(ap, int)));
+	else if (spec == 'b')
+		return (fmt_to_bin(va_arg(ap, int)));
 	return (0);
 }
 

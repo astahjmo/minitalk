@@ -6,7 +6,7 @@
 #    By: johmatos <johmatos@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/30 16:11:43 by johmatos          #+#    #+#              #
-#    Updated: 2022/11/05 17:08:51 by johmatos         ###   ########.fr        #
+#    Updated: 2022/11/22 15:52:27 by johmatos         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 LIB	:= ./libft.a
@@ -27,7 +27,8 @@ SOURCES := ft_atoi.c ft_isalnum.c ft_isalpha.c \
 		   fmt_to_hex.c fmt_to_pointer.c fmt_to_string.c fmt_to_udecimal.c \
 		   ft_printf.c ft_putchar_fd.c ft_putendl_fd.c ft_putnbr_fd.c \
 		   ft_putstr_fd.c get_next_line_bonus.c \
-		   get_next_line_utils_bonus.c parser.c
+		   get_next_line_utils_bonus.c parser.c \
+		   fmt_to_bin.c
 
 OBJS := $(addprefix $(BUILDDIR), $(SOURCES:.c=.o))
 

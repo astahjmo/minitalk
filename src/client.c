@@ -6,7 +6,7 @@
 /*   By: johmatos <johmatos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/05 17:09:05 by johmatos          #+#    #+#             */
-/*   Updated: 2022/11/14 19:27:55 by johmatos         ###   ########.fr       */
+/*   Updated: 2022/11/22 16:36:50 by johmatos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ int	send_sig(int pid, unsigned char b)
 			kill(pid, SIGUSR1);
 		b = b >> 1;
 		a++;
+		usleep(1000);
 	}
 	return (0);
 }
@@ -52,6 +53,5 @@ int	main(int argc, char *argv[])
 	while (*b != '\0')
 	{
 		send_sig(a, *(b)++);
-		usleep(1000);
 	}
 }
