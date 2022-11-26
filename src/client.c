@@ -6,9 +6,10 @@
 /*   By: johmatos <johmatos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/05 17:09:05 by johmatos          #+#    #+#             */
-/*   Updated: 2022/11/25 22:00:49 by johmatos         ###   ########.fr       */
+/*   Updated: 2022/11/26 14:26:34 by johmatos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "../include/minitalk.h"
 
 static void	signal_handler(int sig)
