@@ -6,7 +6,7 @@
 #    By: johmatos <johmatos@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/05 16:49:35 by johmatos          #+#    #+#              #
-#    Updated: 2022/11/08 22:23:06 by johmatos         ###   ########.fr        #
+#    Updated: 2022/11/26 13:33:37 by johmatos         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -31,7 +31,7 @@ $(NAME): $(OBJS)
 
 $(BUILDDIR)%.o: %.c
 	test -d $(BUILDDIR) || mkdir $(BUILDDIR)
-	$(CC) $(CFLAGS) -Llibft -lft -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
 	make clean -C ./libft
