@@ -6,52 +6,72 @@
 /*   By: johmatos <johmatos@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/05 17:09:05 by johmatos          #+#    #+#             */
-/*   Updated: 2022/11/22 16:36:50 by johmatos         ###   ########.fr       */
+/*   Updated: 2022/11/25 22:00:49 by johmatos         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "../include/minitalk.h"
 
-void signal_handler(int sig)
+static void	signal_handler(int sig)
 {
-	ft_printf("received signal: %d\n", sig);
+	g_sema = TRUE;
+	ft_printf("received 1 bit with success\n", sig);
 }
-int	send_sig(int pid, unsigned char b)
+
+static int	send_sig(int pid, unsigned char b)
 {
 	int	a;
 
 	a = 0;
 	while (a < 8)
 	{
+		g_sema = FALSE;
 		if (b & 1)
-			kill(pid, SIGUSR2);
+		{
+			if (kill(pid, SIGUSR2) == ERROR)
+				return (FALSE);
+		}
 		else
-			kill(pid, SIGUSR1);
+		{
+			if (kill(pid, SIGUSR1) == ERROR)
+				return (FALSE);
+		}
 		b = b >> 1;
 		a++;
-		usleep(1000);
+		while (!g_sema)
+			;
 	}
-	return (0);
+	return (TRUE);
+}
+
+static int	check_args(char *pid)
+{
+	while (*pid != '\0')
+	{
+		if (!ft_isdigit(*pid))
+			return (FALSE);
+		pid++;
+	}
+	return (TRUE);
 }
 
 int	main(int argc, char *argv[])
 {
-	int		a;
-	char	*b;
+	int					a;
+	char				*b;
 	struct sigaction	act;
 
 	if (argc != 3)
 		return (ft_printf("Wrong usage"));
-
+	if (!check_args(argv[1]))
+		return (ft_printf("Wrong pid"));
 	act.sa_handler = signal_handler;
-	sigemptyset(&act.sa_mask);
 	act.sa_flags = 0;
+	sigemptyset(&act.sa_mask);
 	sigaction(SIGUSR1, &act, NULL);
 	sigaction(SIGUSR2, &act, NULL);
 	a = ft_atoi(argv[1]);
 	b = &argv[2][0];
 	while (*b != '\0')
-	{
-		send_sig(a, *(b)++);
-	}
+		if (!send_sig(a, *(b)++))
+			return (ft_printf("Error on sending signal"));
 }
